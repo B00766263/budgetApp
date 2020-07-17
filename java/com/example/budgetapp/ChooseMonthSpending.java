@@ -49,7 +49,7 @@ public class ChooseMonthSpending extends AppCompatActivity implements View.OnCli
                 break;
 
             case R.id.homeBtn:
-                intent = new Intent(this, com.example.budgetapp.MainActivity2.class);
+                intent = new Intent(this, com.example.budgetapp.MainActivity.class);
                 startActivity(intent);
                 break;
         }
